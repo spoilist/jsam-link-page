@@ -17,6 +17,8 @@
   "dependencies": {
     "gatsby": "^2.32.8",
     "gatsby-plugin-offline": "^3.10.2",
+    "gatsby-source-filesystem": "^2.11.1",
+    "gatsby-source-google-spreadsheets": "^3.0.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
