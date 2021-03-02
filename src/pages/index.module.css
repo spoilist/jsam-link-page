@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(-45deg, #fb966e, #db4d6d, #005caf, #096148);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.Page {
+    margin-top: 40px;
+    color: #fcfaf2;
+    font-family: -apple-system, Roboto, sans-serif, serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.Heading {
+    margin: auto;
+}
+
+.LinkBlocks {
+    margin: auto 30px;
+}
+
+.LinkBlock {
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 800px;
+}
+
+.CategoryTitle {
+    margin-bottom: 10px;
+}
+
+.Link {
+    margin: 7px 0px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+.Link:link,
+.Link:visited {
+    background-color: transparent;
+    color: #fcfaf2;
+    border: 2px solid #fcfaf2;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Link:hover,
+.Link:active {
+    background-color: #fcfaf2;
+    opacity: 99%;
+    color: black;
+    mix-blend-mode: luminosity;
+}
