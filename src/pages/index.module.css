@@ -70,7 +70,6 @@ body {
 .Link:hover,
 .Link:active {
     background-color: #fcfaf2;
-    opacity: 99%;
     color: black;
     mix-blend-mode: luminosity;
 }
